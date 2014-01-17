@@ -6,10 +6,10 @@
         id        = "com.basswalk.app"
         version   = "1.0.0">
 
-    <name>Basswalk App</name>
+    <name>Basswalk</name>
 
     <description>
-        Now mobile, you can quickly browse, listen to new music and you can use our music store to buy tracks directly from Basswalk Records.
+        Now mobile, you can quickly browse, listen and buy new tracks directly from Basswalk Records.
     </description>
 
     <author href="http://basswalk.com" email="robert.skrlec@gmail.com.com">
@@ -34,7 +34,7 @@
     <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
     <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
-    <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="android-minSdkVersion"      value="13" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
     <!-- Plugins -->
