@@ -24,7 +24,6 @@ font-size: 0.9em;
 color: rgb(218, 218, 218);
 font-weight: bold;
 margin-top: -2px;	
-margin-bottom: 0px;
 }
 .number {
 font-size: 0.7em;
@@ -62,12 +61,11 @@ input {
     border-radius: 0;
 }
 
-.content-box{
+.{
 	background: white;
 	background-repeat:repeat;
 	z-index:10;
-	padding-top:55px !important;
-	padding-bottom: 20px;
+	
 }
 
 .has-gallery{
