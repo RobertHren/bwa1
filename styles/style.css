@@ -85,7 +85,6 @@ input {
 	z-index:9999;
 	position:fixed;
 	width:100%;
-max-width: 960px;
 	background-color:#FFFFFF;
 	height:50px;
 	border-bottom:solid 1px #f9fafc;
@@ -96,7 +95,6 @@ max-width: 960px;
 .deploy-left-sidebar{
 	background-image:url(../images/misc/nav.png);
 	background-repeat:no-repeat;
-	background-color:#f9fafc;
 	height:50px;
 	width:50px;
 	background-position:center center;
@@ -106,7 +104,6 @@ max-width: 960px;
 .deploy-right-sidebar{
 	background-image:url(../images/misc/contact.png);
 	background-repeat:no-repeat;
-	background-color:#f9fafc;
 	width:50px;
 	height:50px;
 	background-position:center center;
@@ -138,7 +135,7 @@ max-width: 960px;
 }
 
 .sidebar-left{
-	box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.3);
+	
 	background-image:url(../images/sidebar-bg.png);
 	background-repeat:repeat;
 	width:270px;
@@ -170,7 +167,7 @@ max-width: 960px;
 }
 
 .sidebar-right{
-	box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.3);
+	
 	background-image:url(../images/sidebar-bg.png);
 	background-repeat:repeat;
 	position: fixed;
@@ -209,7 +206,6 @@ max-width: 960px;
 }
 
 .close-sidebar-left{
-	background-color:#212326;
 	background-image:url(../images/icon/misc/accessdenied.png);
 	background-size: 20px 20px;
 background-repeat: no-repeat;
@@ -234,7 +230,9 @@ background-position: 14px 15px;
 
 .home-nav{background-image:url(../images/icon/misc/home.png);}
 .info-nav{background-image:url(../images/icon/misc/infoabout.png);}
+.account-nav{background-image:url(../images/icon/misc/account.png);}
 .about-nav {background-image: url(../images/icon/user/group.png);}
+.user-nav {background-image: url(images/icon/user/user.png);}
 .clouddownload-nav {background-image: url(../images/icon/misc/clouddownload.png);}
 .folio-nav{background-image:url(../images/icon/media/image2.png);}
 .video-nav{background-image:url(../images/icon/media/clapboard.png);}
@@ -458,7 +456,6 @@ opacity: 0.6; filter: alpha(opacity=60); background-image:url(../images/icon/mis
 }
 
 .close-sidebar-right{
-	background-color:#212326;
 	background-image:url(../images/icon/misc/accessdenied.png);
 	background-size: 20px 20px;
 background-repeat: no-repeat;
