@@ -19,6 +19,18 @@ border-bottom: 1px solid rgb(219, 219, 219);
 background: rgb(0, 0, 0);
 
 }
+.opencatalog {
+color: #fff;
+background: #5BB75B;
+border: none;
+padding: 10px;
+}
+.openmc {
+margin-top: 30px;
+}
+div, a, p, img, blockquote, form, fieldset, textarea, input, label, iframe, code, pre {
+
+}
 .name {
 font-size: 0.9em;
 color: rgb(218, 218, 218);
